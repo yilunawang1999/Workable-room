@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "app/page.tsx",
+    "app/layout.tsx",
+    "components/experience/**/*.ts",
+    "components/experience/**/*.tsx",
+    "data/fragments.ts",
+    "src/pages-main.tsx",
+    "vite.pages.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "dist-pages"
+  ]
+}
